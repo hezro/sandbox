@@ -9,6 +9,9 @@
     "install.js",
     "platform-target.js"
   ],
+  "dependencies": {
+    "adm-zip": "0.4.7"
+  },
   "scripts": {
     "build": "cargo-cp-artifact -nc index.node -- cargo build --message-format=json-render-diagnostics",
     "build-debug": "npm run build --",
