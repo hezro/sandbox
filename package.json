@@ -10,7 +10,6 @@
     "platform-target.js"
   ],
   "dependencies": {
-    "npmconf": "0.0.24",
     "adm-zip": "0.5.9"
   },
   "scripts": {
