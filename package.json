@@ -10,7 +10,9 @@
     "platform-target.js"
   ],
   "dependencies": {
-    "adm-zip": "0.5.9"
+    "adm-zip": "0.5.9",
+    "npmconf": "0.0.24",
+    "typeorm": "^0.2.24"
   },
   "scripts": {
     "build": "cargo-cp-artifact -nc index.node -- cargo build --message-format=json-render-diagnostics",
